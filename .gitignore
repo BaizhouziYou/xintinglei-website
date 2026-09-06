@@ -1,0 +1,22 @@
+# Dependencies and runtime data
+node_modules/
+server/node_modules/
+server/data/*.db
+!server/data/.gitkeep
+*.log
+
+# Local configuration and deployment state
+.env
+.env.*
+!.env.example
+.npm-cache/
+.well-known/
+.user.ini
+*.pem
+*.key
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

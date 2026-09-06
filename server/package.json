@@ -1,0 +1,25 @@
+{
+  "name": "xintinglei-status-backend",
+  "version": "1.0.0",
+  "description": "Self-hosted status backend for Xintinglei Website.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --env-file=../.env src/server.js",
+    "monitor": "node --env-file=../.env src/monitor.js",
+    "migrate": "node -e \"require('./src/database').migrateDatabase().then(() => require('./src/database').closeDatabase())\"",
+    "check": "node --check src/config.js && node --check src/database.js && node --check src/minecraft-status.js && node --check src/monitor.js && node --check src/server.js",
+    "test": "node --test test/**/*.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "sqlite3": "^6.0.1",
+    "ws": "^8.21.3"
+  },
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "overrides": {
+    "tar-fs": "2.1.4"
+  }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - 页面未找到 | 新亭泪</title>
+    <meta name="source-code" content="https://github.com/BaizhouziYou/xintinglei-website">
+    <meta name="license" content="AGPL-3.0-only">
+    <link rel="stylesheet" href="assets/css/style-v260906fix3.css">
+    <script src="assets/js/main.js" defer></script>
+    <style>
+        .error-page {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 0 20px;
+            position: relative;
+            z-index: 10;
+        }
+        .error-code {
+            font-size: clamp(80px, 15vw, 150px);
+            font-weight: 900;
+            line-height: 1;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #ffffff 30%, #64748b 100%);
+            -webkit-background-clip: text;
+            color: transparent;
+            text-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .error-title {
+            font-size: clamp(24px, 4vw, 36px);
+            color: #fff;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        .error-desc {
+            color: var(--color-text-secondary);
+            font-size: 18px;
+            max-width: 500px;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header" id="main-header">
+        <div class="header-container">
+            <a href="/" class="header-logo" aria-label="返回新亭泪首页">新亭泪</a>
+            <nav class="header-nav">
+                <a href="about.html">公会介绍</a>
+                <a href="members.html">成员展示</a>
+                <a href="news.html">最新公告</a>
+                <a href="gallery.html">作品展示</a>
+                <a href="join.html">加入我们</a>
+                <a href="status.html">服务状态</a>
+                <a href="https://skin.xintinglei.cn" target="_blank" rel="noopener noreferrer">皮肤站<svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6m0-6L10 14m8-1v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+                <a href="https://center.xintinglei.cn" target="_blank" rel="noopener noreferrer">用户中心<svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6m0-6L10 14m8-1v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+                <a href="https://docs.xintinglei.cn" target="_blank" rel="noopener noreferrer">文档<svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6m0-6L10 14m8-1v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="fullscreen-menu" id="fullscreen-menu">
+        <nav>
+            <a href="index.html">首页</a>
+            <a href="about.html">公会介绍</a>
+            <a href="members.html">成员展示</a>
+            <a href="news.html">最新公告</a>
+            <a href="gallery.html">作品展示</a>
+            <a href="join.html">加入我们</a>
+            <a href="status.html">服务状态</a>
+            <a href="https://skin.xintinglei.cn" target="_blank" rel="noopener noreferrer">皮肤站<svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6m0-6L10 14m8-1v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+            <a href="https://center.xintinglei.cn" target="_blank" rel="noopener noreferrer">用户中心<svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6m0-6L10 14m8-1v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+            <a href="https://docs.xintinglei.cn" target="_blank" rel="noopener noreferrer">文档<svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6m0-6L10 14m8-1v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+        </nav>
+    </div>
+
+    <main class="error-page">
+        <div class="reveal-up">
+            <div class="error-code">404</div>
+            <h1 class="error-title">迷失在虚空中</h1>
+            <p class="error-desc">你寻找的页面似乎已被末影龙带走，或者原本就不存在于这个坐标。</p>
+            <a href="index.html" class="cta-button">返回主基地</a>
+            <p class="footer-source"><a href="https://github.com/BaizhouziYou/xintinglei-website">Xintinglei Website · Source Code · GNU AGPL-3.0</a></p>
+        </div>
+    </main>
+
+    <button id="menu-toggle" class="menu-button" aria-label="菜单" aria-controls="fullscreen-menu">
+        <div class="bar-container"><span class="bar"></span><span class="bar"></span></div>
+    </button>
+</body>
+</html>

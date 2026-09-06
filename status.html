@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服务器状态 - 新亭泪公会</title>
+    <meta name="source-code" content="https://github.com/BaizhouziYou/xintinglei-website">
+    <meta name="license" content="AGPL-3.0-only">
+    <link rel="stylesheet" href="assets/css/style-v260906fix3.css">
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/config.js" defer></script>
+    <script src="assets/js/status-v260906fix3.js" defer></script>
+</head>
+<body>
+
+    <header class="main-header" id="main-header">
+        <div class="header-container">
+            <a href="/" class="header-logo" aria-label="返回新亭泪首页">新亭泪</a>
+            <nav class="header-nav">
+                <a href="about.html">公会介绍</a>
+                <a href="members.html">成员展示</a>
+                <a href="news.html">最新公告</a>
+                <a href="gallery.html">作品展示</a>
+                <a href="join.html">加入我们</a>
+                <a href="status.html">服务状态</a>
+                <a href="https://skin.xintinglei.cn" target="_blank" rel="noopener noreferrer">皮肤站<svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6m0-6L10 14m8-1v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+                <a href="https://center.xintinglei.cn" target="_blank" rel="noopener noreferrer">用户中心<svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6m0-6L10 14m8-1v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+                <a href="https://docs.xintinglei.cn" target="_blank" rel="noopener noreferrer">文档<svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6m0-6L10 14m8-1v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="fullscreen-menu" id="fullscreen-menu">
+        <nav>
+            <a href="index.html">首页</a>
+            <a href="about.html">公会介绍</a>
+            <a href="members.html">成员展示</a>
+            <a href="news.html">最新公告</a>
+            <a href="gallery.html">作品展示</a>
+            <a href="join.html">加入我们</a>
+            <a href="status.html">服务状态</a>
+            <a href="https://skin.xintinglei.cn" target="_blank" rel="noopener noreferrer">皮肤站<svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6m0-6L10 14m8-1v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+            <a href="https://center.xintinglei.cn" target="_blank" rel="noopener noreferrer">用户中心<svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6m0-6L10 14m8-1v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+            <a href="https://docs.xintinglei.cn" target="_blank" rel="noopener noreferrer">文档<svg class="external-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 3h6v6m0-6L10 14m8-1v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>
+        </nav>
+    </div>
+
+    <main class="page-main">
+        <section class="content-section bg-secondary">
+            <div class="container">
+                <h1 class="page-title">服务器实时状态</h1>
+                <p class="section-subtitle">生电服</p>
+            </div>
+        </section>
+        <section class="content-section bg-primary">
+            <div class="container">
+                <div class="status-layout-container">
+                    <div class="info-card">
+                        <h2 class="info-card-title">实时状态</h2>
+                        <div class="info-card-body" id="status-card-body"></div>
+                        <div class="manual-ping-area">
+                            <button id="manual-ping-button" class="cta-button">测试我的延迟</button>
+                            <div class="ping-result">
+                                <span>您的延迟: <strong id="manual-ping-result">-- ms</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <h2 class="info-card-title">在线玩家</h2>
+                        <div class="info-card-body" id="players-card-body"></div>
+                    </div>
+                    <div class="info-card" id="availability-card">
+                        <h2 class="info-card-title">24小时可用率</h2>
+                        <div class="info-card-body" id="availability-card-body"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p>Copyright &copy; 2024-2026 Xintinglei. Website source code by BaizhouziYou.</p>
+            <p class="footer-source"><a href="https://github.com/BaizhouziYou/xintinglei-website">Xintinglei Website · Source Code · GNU AGPL-3.0</a></p>
+        </div>
+    </footer>
+
+    <button id="menu-toggle" class="menu-button" aria-label="菜单" aria-controls="fullscreen-menu">
+        <div class="bar-container"><span class="bar"></span><span class="bar"></span></div>
+    </button>
+
+</body>
+</html>
