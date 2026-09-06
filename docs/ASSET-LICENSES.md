@@ -26,5 +26,3 @@ The AGPL-3.0-only license for the program source code does not apply to media as
 | `xtlRailwayL1.png` | 新亭泪轨道交通 L1；BaiZhouziYou1226 | All rights reserved |
 
 `favicon.ico` is a Xintinglei brand asset. All rights are reserved; see [TRADEMARKS.md](TRADEMARKS.md).
-
-If the authorization status of any asset changes, remove it from the repository and update this register before the next release.

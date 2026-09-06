@@ -15,7 +15,6 @@ Simplified Chinese documents are provided for convenience only. The English docu
 
 - [Additional terms](docs/ADDITIONAL_TERMS.md)
 - [Media asset register](docs/ASSET-LICENSES.md)
-- [Changelog](docs/CHANGELOG.md)
 - [Contributing guide](docs/CONTRIBUTING.md)
 - [Notices and rights statement](docs/NOTICE.md)
 - [Security policy](docs/SECURITY.md)
@@ -52,9 +51,7 @@ npm run monitor
 ## Deployment notes
 
 - Set `CORS_ORIGINS` to your actual website origin.
-- Keep `SHOW_PLAYER_NAMES=false` unless you have a clear privacy policy and user expectation for publishing names.
 - Do not upload `server/data/status.db`, `.env`, logs, certificate files, or web-server control files.
-- Forks must replace Xintinglei branding unless separately permitted, and must preserve the required origin attribution.
 
 ## Verification
 

@@ -15,7 +15,6 @@
 
 - [附加条款](docs/ADDITIONAL_TERMS.zh-CN.md)
 - [媒体资产登记与许可](docs/ASSET-LICENSES.zh-CN.md)
-- [更新记录](docs/CHANGELOG.zh-CN.md)
 - [贡献指南](docs/CONTRIBUTING.zh-CN.md)
 - [公告与权利声明](docs/NOTICE.zh-CN.md)
 - [安全策略](docs/SECURITY.zh-CN.md)
@@ -52,9 +51,7 @@ npm run monitor
 ## 部署提醒
 
 - 将 `CORS_ORIGINS` 设置为实际官网来源。
-- 除非已明确告知用户且有隐私政策，否则保持 `SHOW_PLAYER_NAMES=false`。
 - 不要上传 `server/data/status.db`、`.env`、日志、证书文件或 Web 服务器控制文件。
-- Fork 必须更换新亭泪品牌和受保护图片；仍须保留要求的来源署名。
 
 ## 验证
 

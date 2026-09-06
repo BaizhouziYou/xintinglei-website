@@ -28,5 +28,3 @@
 | `xtlRailwayL1.png` | 新亭泪轨道交通 L1；BaiZhouziYou1226 | 保留所有权利 |
 
 `favicon.ico` 同为 Xintinglei 品牌资产，保留所有权利；详见 [TRADEMARKS.md](TRADEMARKS.md)。
-
-如任一资产授权状态发生变化，应在下一次发布前从仓库移除该资产并更新英文登记表。
