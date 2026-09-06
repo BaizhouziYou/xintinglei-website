@@ -51,7 +51,6 @@ npm run monitor
 ## Deployment notes
 
 - Set `CORS_ORIGINS` to your actual website origin.
-- Do not upload `server/data/status.db`, `.env`, logs, certificate files, or web-server control files.
 
 ## Verification
 

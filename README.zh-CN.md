@@ -51,7 +51,6 @@ npm run monitor
 ## 部署提醒
 
 - 将 `CORS_ORIGINS` 设置为实际官网来源。
-- 不要上传 `server/data/status.db`、`.env`、日志、证书文件或 Web 服务器控制文件。
 
 ## 验证
 
