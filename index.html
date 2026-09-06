@@ -13,8 +13,8 @@
     <meta property="og:image" content="https://xintinglei.cn/assets/img/metaImg.jpeg" />
     <meta name="source-code" content="https://github.com/BaizhouziYou/xintinglei-website">
     <meta name="license" content="AGPL-3.0-only">
-    <link rel="stylesheet" href="assets/css/style-v260906fix4.css">
-    <script src="assets/js/main.js" defer></script>
+    <link rel="stylesheet" href="assets/css/style-v260906fix5.css">
+    <script src="assets/js/main-v260906fix1.js" defer></script>
 </head>
 <body>
     <header class="main-header" id="main-header">
@@ -54,16 +54,28 @@
             <div id="heroCarousel" class="carousel" aria-roledescription="carousel" aria-label="首页轮播">
                 <div class="carousel-track">
                     <div class="slide">
-                        <img src="assets/img/bg2026-1.jpg" alt="261" loading="lazy">
+                        <picture>
+                            <source media="(max-width: 833px)" type="image/webp" srcset="assets/img/webp/bg2026-1-1280.webp 1280w, assets/img/webp/bg2026-1-1920.webp 1920w" sizes="100vw">
+                            <img src="assets/img/bg2026-1.jpg" width="2868" height="1357" alt="261" loading="eager" fetchpriority="high">
+                        </picture>
                     </div>
                     <div class="slide">
-                        <img src="assets/img/bg2026-2.png" alt="262" loading="lazy">
+                        <picture>
+                            <source media="(max-width: 833px)" type="image/webp" srcset="assets/img/webp/bg2026-2-1280.webp 1280w, assets/img/webp/bg2026-2-1920.webp 1920w" sizes="100vw">
+                            <img src="assets/img/bg2026-2.png" width="1920" height="1080" alt="262" loading="lazy" decoding="async">
+                        </picture>
                     </div>
                     <div class="slide">
-                        <img src="assets/img/bg2026-3.png" alt="263" loading="lazy">
+                        <picture>
+                            <source media="(max-width: 833px)" type="image/webp" srcset="assets/img/webp/bg2026-3-1280.webp 1280w, assets/img/webp/bg2026-3-1920.webp 1920w" sizes="100vw">
+                            <img src="assets/img/bg2026-3.png" width="2559" height="1240" alt="263" loading="lazy" decoding="async">
+                        </picture>
                     </div>
                     <div class="slide">
-                        <img src="assets/img/bg2026-4.png" alt="264" loading="lazy">
+                        <picture>
+                            <source media="(max-width: 833px)" type="image/webp" srcset="assets/img/webp/bg2026-4-1280.webp 1280w, assets/img/webp/bg2026-4-1920.webp 1920w" sizes="100vw">
+                            <img src="assets/img/bg2026-4.png" width="2559" height="1168" alt="264" loading="lazy" decoding="async">
+                        </picture>
                     </div>
                 </div>
                 <button class="carousel-arrow carousel-prev" aria-label="上一张" data-action="prev">&lt;</button>
