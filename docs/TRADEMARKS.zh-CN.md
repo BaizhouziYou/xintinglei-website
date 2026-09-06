@@ -1,6 +1,6 @@
 # 商标与品牌政策（简体中文参考）
 
-[English](TRADEMARKS.md) | [简体中文](TRADEMARKS.zh-CN.md)
+[English](TRADEMARKS.md) | 简体中文
 
 > **仅供参考：本文件为英文版 [TRADEMARKS.md](TRADEMARKS.md) 的简体中文参考译文；如有任何不一致，以英文版为准。**
 

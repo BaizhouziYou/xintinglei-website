@@ -1,6 +1,6 @@
 # Xintinglei Website（简体中文说明）
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+[English](README.md) | 简体中文
 
 > **仅供参考：本文件为英文版 [README.md](README.md) 的简体中文参考译文；如有任何不一致，以英文版为准。**
 

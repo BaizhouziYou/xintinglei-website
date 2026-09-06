@@ -1,6 +1,6 @@
 # Brand and trademark policy
 
-[English](TRADEMARKS.md) | [简体中文](TRADEMARKS.zh-CN.md)
+English | [简体中文](TRADEMARKS.zh-CN.md)
 
 The source-code license does not grant permission to use the names `Xintinglei` or `新亭泪`, the project logo, favicon, server identity, or other brand identifiers in a way that suggests affiliation, endorsement, sponsorship, or operation by the original project.
 

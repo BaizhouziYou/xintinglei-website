@@ -1,6 +1,6 @@
 # 媒体资产登记与许可（简体中文参考）
 
-[English](ASSET-LICENSES.md) | [简体中文](ASSET-LICENSES.zh-CN.md)
+[English](ASSET-LICENSES.md) | 简体中文
 
 > **仅供参考：本文件为英文版 [ASSET-LICENSES.md](ASSET-LICENSES.md) 的简体中文参考译文；如有任何不一致，以英文版为准。**
 

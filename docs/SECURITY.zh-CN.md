@@ -1,6 +1,6 @@
 # 安全策略（简体中文参考）
 
-[English](SECURITY.md) | [简体中文](SECURITY.zh-CN.md)
+[English](SECURITY.md) | 简体中文
 
 > **仅供参考：本文件为英文版 [SECURITY.md](SECURITY.md) 的简体中文参考译文；如有任何不一致，以英文版为准。**
 

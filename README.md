@@ -1,6 +1,6 @@
 # Xintinglei Website
 
-[English](README.md) | [简体中文](README.zh-CN.md)
+English | [简体中文](README.zh-CN.md)
 
 新亭泪（Xintinglei）Minecraft 社区官网与自托管服务器状态服务。
 

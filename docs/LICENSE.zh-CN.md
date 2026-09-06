@@ -1,6 +1,6 @@
 # 许可证说明（简体中文参考）
 
-[English](../LICENSE) | [简体中文](LICENSE.zh-CN.md)
+[English](../LICENSE) | 简体中文
 
 > **仅供参考：本文件不是许可证文本的翻译或替代；如有任何不一致，以英文版 [LICENSE](../LICENSE) 的 GNU Affero General Public License v3.0 正文为准。**
 

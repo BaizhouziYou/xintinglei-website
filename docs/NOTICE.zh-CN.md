@@ -1,6 +1,6 @@
 # Xintinglei Website 公告与权利声明（简体中文参考）
 
-[English](NOTICE.md) | [简体中文](NOTICE.zh-CN.md)
+[English](NOTICE.md) | 简体中文
 
 > **仅供参考：本文件为英文版 [NOTICE.md](NOTICE.md) 的简体中文参考译文；如有任何不一致，以英文版为准。**
 

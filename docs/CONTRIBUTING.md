@@ -1,6 +1,6 @@
 # Contributing
 
-[English](CONTRIBUTING.md) | [简体中文](CONTRIBUTING.zh-CN.md)
+English | [简体中文](CONTRIBUTING.zh-CN.md)
 
 1. Keep changes focused and document their purpose.
 2. Do not add secrets, runtime databases, production configuration, or unauthorized media.

@@ -1,6 +1,6 @@
 # Xintinglei Website notices
 
-[English](NOTICE.md) | [简体中文](NOTICE.zh-CN.md)
+English | [简体中文](NOTICE.zh-CN.md)
 
 Copyright © 2024–2026 BaizhouziYou.
 

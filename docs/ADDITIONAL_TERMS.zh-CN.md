@@ -1,6 +1,6 @@
 # Xintinglei Website 附加条款（简体中文参考）
 
-[English](ADDITIONAL_TERMS.md) | [简体中文](ADDITIONAL_TERMS.zh-CN.md)
+[English](ADDITIONAL_TERMS.md) | 简体中文
 
 > **仅供参考：本文件为英文版 [ADDITIONAL_TERMS.md](ADDITIONAL_TERMS.md) 的简体中文参考译文；如有任何不一致，以英文版为准。**
 

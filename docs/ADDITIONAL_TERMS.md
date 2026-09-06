@@ -1,6 +1,6 @@
 # Additional Terms for Xintinglei Website
 
-[English](ADDITIONAL_TERMS.md) | [简体中文](ADDITIONAL_TERMS.zh-CN.md)
+English | [简体中文](ADDITIONAL_TERMS.zh-CN.md)
 
 These additional terms supplement the GNU Affero General Public License v3.0 for material copyrighted by BaizhouziYou in this repository. They are intended to operate within the categories permitted by AGPL-3.0 section 7(b), 7(c), and 7(e).
 

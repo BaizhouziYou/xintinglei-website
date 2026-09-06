@@ -1,6 +1,6 @@
 # Changelog
 
-[English](CHANGELOG.md) | [简体中文](CHANGELOG.zh-CN.md)
+English | [简体中文](CHANGELOG.zh-CN.md)
 
 ## Unreleased
 

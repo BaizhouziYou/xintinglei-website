@@ -1,6 +1,6 @@
 # Media asset register
 
-[English](ASSET-LICENSES.md) | [简体中文](ASSET-LICENSES.zh-CN.md)
+English | [简体中文](ASSET-LICENSES.zh-CN.md)
 
 All files in `assets/img/` were supplied by BaizhouziYou for this project. They are included with authorization for this repository and website. Original high-resolution source files remain outside the repository.
 

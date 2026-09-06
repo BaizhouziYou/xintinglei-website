@@ -1,6 +1,6 @@
 # 更新记录（简体中文参考）
 
-[English](CHANGELOG.md) | [简体中文](CHANGELOG.zh-CN.md)
+[English](CHANGELOG.md) | 简体中文
 
 > **仅供参考：本文件为英文版 [CHANGELOG.md](CHANGELOG.md) 的简体中文参考译文；如有任何不一致，以英文版为准。**
 
