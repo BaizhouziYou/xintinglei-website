@@ -1,8 +1,8 @@
 # 贡献指南（简体中文参考）
 
-[English](CONTRIBUTING.md) | 简体中文
+[English](https://github.com/BaizhouziYou/xintinglei-website/blob/main/docs/CONTRIBUTING.md) | 简体中文
 
-> **仅供参考：本文件为英文版 [CONTRIBUTING.md](CONTRIBUTING.md) 的简体中文参考译文；如有任何不一致，以英文版为准。**
+> **仅供参考：本文件为英文版 [CONTRIBUTING.md](https://github.com/BaizhouziYou/xintinglei-website/blob/main/docs/CONTRIBUTING.md) 的简体中文参考译文；如有任何不一致，以英文版为准。**
 
 1. 保持修改聚焦，并记录其目的。
 2. 不得加入密钥、运行时数据库、生产配置或未经授权的媒体。

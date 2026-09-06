@@ -1,8 +1,8 @@
 # 安全策略（简体中文参考）
 
-[English](SECURITY.md) | 简体中文
+[English](https://github.com/BaizhouziYou/xintinglei-website/blob/main/docs/SECURITY.md) | 简体中文
 
-> **仅供参考：本文件为英文版 [SECURITY.md](SECURITY.md) 的简体中文参考译文；如有任何不一致，以英文版为准。**
+> **仅供参考：本文件为英文版 [SECURITY.md](https://github.com/BaizhouziYou/xintinglei-website/blob/main/docs/SECURITY.md) 的简体中文参考译文；如有任何不一致，以英文版为准。**
 
 若漏洞可能暴露部署细节、凭据或玩家信息，请不要通过公开 issue 报告。请通过项目文档列出的联系方式私下联系维护者。
 
